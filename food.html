@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>food</title>
+<link rel="stylesheet" href="css/osu.css">
+<style>
+/* ベースのスタイル */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;  /* 余白を取り除く */
+  padding: 0;  /* 余白を取り除く */
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* ヘッダー */
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  margin: 0 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #f8a400;
+}
+
+/* ヒーローセクション */
+.hero {
+  text-align: center;
+  background-color: #f8a400;
+  color: #fff;
+  padding: 40px 20px;  /* 上下のパディングを調整 */
+  margin: 0;  /* 余白を取り除く */
+}
+
+.hero.menu {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin: 0;  /* 上下の余白を取り除く */
+}
+
+/* アイテムリスト */
+.items {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.item {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.item:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.item img {
+  width: 100%;
+  height: auto;
+  border-bottom: 2px solid #f4f4f4;
+}
+
+.item p {
+  padding: 15px;
+  font-size: 1.1rem;
+}
+
+.item strong {
+  font-size: 1.2rem;
+  color: #f8a400;
+}
+
+.item a {
+  color: #333;
+  text-decoration: none;
+}
+
+/* フッター */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+footer a {
+  color: #f8a400;
+  text-decoration: none;
+}
+</style>
+</head>
+
+<body>
+  <header>
+    <nav class="nav">
+      <ul>
+        <li><a href="index.html">ホーム</a></li>
+        <li><a href="movie.html">映画</a></li>
+        <li><a href="manga.html">漫画</a></li>
+        <li><a href="food.html">フード</a></li>
+      </ul>
+    </nav>
+  </header>
+  <h1 class="hero menu">フード</h1>
+  <main>
+    <div class="items">
+      <div class="item">
+        <a href="http://mizunoya.jp/"target=”_blank”><img src="images/top-korokke.jpg" alt="水野屋のビーフコロッケ">
+        <p>水野屋のビーフコロッケ<br><strong>¥１６０</strong></p></a>
+      </div>
+      <div class="item">
+        <a href="https://www.551horai.co.jp/menu/syu-mai/"target=”_blank”><img src="images/shumai_pc.jpg" alt="551のシュウマイ">
+        <p>５５１のシュウマイ<br><strong>¥５１０</strong></p></a>
+      </div>
+      <div class="item">
+        <a href="http://mizunoya.jp/"target=”_blank”><img src="images/103tukune.jpg" alt="日本一のやきとり">
+        <p>日本一のつくね<br><strong>¥１３０</strong></p></a>
+      </div>
+        <div class="item">
+         <a href="https://www.bronco.co.jp/menu/dinner/ganko_hamburg/"target=”_blank”><img src="images/20241011_ganko.jpg" alt="ブロンコおじさんのこだわり炭焼きがんこハンバーグ">
+        <p>ブロンコおじさんのこだわり炭焼きがんこハンバーグ<br><strong>¥１０７８</strong></p></a>
+      </div>
+      <div class="item">
+        <a href="https://torikizoku.co.jp/menu/yakitori/?_gl=1*jr1bl6*_ga*NzgzMTc1NzAzLjE3Mzg4OTE5OTY."target=”_blank”> <img src="images/momo_kizokuyaki_tare.jpg" alt="鳥貴族のやきとり">
+        <p>鳥貴族のやきとり<br><strong>¥３７０</strong></p></a>
+      </div>
+      <div class="item">
+        <a href="https://torikizoku.co.jp/menu/ippin/?_gl=1*jr1bl6*_ga*NzgzMTc1NzAzLjE3Mzg4OTE5OTY."target=”_blank”> <img src="images/potato_sarada.jpg" alt="鳥貴族の明太子ポテトサラダ">
+        <p>鳥貴族の明太子ポテトサラダ<br><strong>¥３７０</strong></p></a>
+      </div>
+      <div class="item">
+         <a href="https://torikizoku.co.jp/menu/ippin/?_gl=1*jr1bl6*_ga*NzgzMTc1NzAzLjE3Mzg4OTE5OTY."target=”_blank”> <img src="images/chicken_namban.jpg" alt="鳥貴族のチキン南蛮">
+        <p>鳥貴族のチキン南蛮<br><strong>¥３７０</strong></p></a>
+      </div>
+      <div class="item">
+        <a href="https://www.kagome.co.jp/products/drink/A7919/"target=”_blank”><img src="images/3075_b1.jpg" alt="野菜生活100　アップルサラダ">
+        <p>野菜生活100　アップルサラダ<br><strong>\１１０</strong></p></a>
+      </div>
+      <div class="item">
+        <a href="https://www.ohayo-milk.co.jp/dessert/14060.html"target=”_blank”> <img src="images/1405_01.jpg" alt="ジャージー牛乳プリン">
+        <p>ジャージー牛乳プリン<br><strong>¥１７０</strong></p></a>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <p>&copy; MIYASAKAのオススメ</p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>manga</title>
+    <link rel="stylesheet" href="css/osu.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        .nav ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: center;
+            background-color: #fff; /* 白に変更 */
+            margin: 0;
+        }
+
+        .nav li {
+            display: inline-block;
+            margin: 0;
+        }
+
+        .nav a {
+            text-decoration: none;
+            padding: 14px 20px;
+            display: block;
+            color: #333; /* 文字色を黒に変更 */
+            background-color: #fff; /* 白に変更 */
+        }
+
+        .nav a:hover {
+            background-color: #f0f0f0; /* ホバー時に少しグレーに変更 */
+        }
+
+        #pic_frame {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        li {
+            display: inline-block;
+            margin: 10px;
+        }
+
+        img {
+            width: 200px;
+            height: auto;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            transition: transform 0.2s;
+        }
+
+        img:hover {
+            transform: scale(1.1);
+        }
+
+        p {
+            text-align: center;
+            margin-top: 5px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <nav class="nav">
+        <ul>
+            <li><a href="index.html">ホーム</a></li>
+            <li><a href="movie.html">映画</a></li>
+            <li><a href="manga.html">漫画</a></li>
+            <li><a href="food.html">フード</a></li>
+        </ul>
+    </nav>
+
+    <div id="pic_frame">
+        <h1>漫画</h1>
+    </div>
+
+    <ul id="pic_frame">
+        <li><a href="https://ramenakaneko.com/"target=”_blank”><img src="images/ramenakaneko001.jpg" alt=""><p>ラーメン赤猫</p></a></li>
+        <li><a href="https://www.shonenjump.com/j/rensai/hunter.html"target=”_blank”><img src="images/main_hunter.jpg" alt=""><p>ハンターハンター</p></a></li>
+        <li><a href="https://afternoon.kodansha.co.jp/c/toshodai/"target=”_blank”><img src="images/9784065112434_w.jpg" alt=""><p>図書館の大魔術師</p></a></li>
+        <li><a href="https://www.cmoa.jp/search/series/181/"target=”_blank”><img src="images/9784098615681.jpg" alt=""><p>アフロ田中</p></a></li>
+        <li><a href="https://urasunday.com/title/1349/276213"target=”_blank”><img src="images/09850456.jpg" alt=""><p>異剣戦記ヴェルンディオ</p></a></li>
+        <li><a href="https://shonenjumpplus.com/episode/17106371852950440097"target=”_blank”><img src="images/ken.jpg" alt=""><p>ケントゥリア</p></a></li>
+        <li><a href="https://shonenjumpplus.com/episode/17106567255482959981"target=”_blank”><img src="images/smotherme001.jpg" alt=""><p>SMOTHER ME</p></a></li>
+        <li><a href="https://shonenjumpplus.com/episode/3269632237310729754"target=”_blank”><img src="images/dandadan.jpg" alt=""><p>ダンダダン</p></a></li>
+    </ul>
+</body>
+</html>
